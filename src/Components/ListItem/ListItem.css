@@ -1,0 +1,38 @@
+.listItems {
+    background: #fff;
+    width: 30%;
+    border: 1px solid #777;
+    
+
+}
+.item, .header{
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    background: #009688;
+    color: #fff;
+    font-weight: bold;
+}
+.header span {
+    padding: 10px 0;
+}
+span{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    border: 1px solid #777;
+    padding: 5px 0;
+}
+span.delete{
+    color: red;
+    font-weight: bold;
+    font-size: 19px;
+    cursor: pointer;
+}
+p.message{
+    color: red;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+}

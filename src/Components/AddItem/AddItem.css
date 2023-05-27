@@ -1,0 +1,21 @@
+.form{
+    width: 30%;
+    margin-top: 20px;
+}
+form{
+    width: 100%;
+}
+input{
+    padding: 5px;
+    outline: none;
+}
+input[type="submit"]{
+    background: #009688;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 23.7%;
+    border: 1px solid #777;
+    font-size: 14px;
+
+}
